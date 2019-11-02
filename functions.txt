@@ -1,0 +1,63 @@
+1)any:
+
+	"""
+	The any() function returns True if any item in an iterable are true, otherwise it returns False.
+
+	If the iterable object is empty, the any() function will return False.
+	"""
+	tuple=[0,5,False]     # iterable object (list,tuple,dictionary)
+	x=any(tuple)
+	print(x)
+
+	Ans:True
+
+2)bin:
+
+	"""
+	The bin() function returns the binary version of a specified integer.
+
+	The result will always start with the prefix 0b.
+	"""
+	x=bin(8)
+	print(x)
+
+	Ans:0b1000
+
+3)bool:
+
+	"""
+	The bool() function returns the boolean value of a specified object.
+
+	The object will always return True, unless:
+
+	The object is empty, like [], (), {}
+	The object is False
+	The object is 0
+	The object is None
+	"""
+	x=5
+	y=3
+	z=bool(x==y)
+	print(z)
+
+	Ans:False
+
+4)chr:
+
+	"""
+	The chr() function returns the character that represents the specified unicode.
+	"""
+	x=chr(97)
+	print(x)
+
+	Ans:a
+
+5)abs:
+
+	"""
+	The abs() function returns the absolute value of the specified number.
+	"""
+	x=abs(-52.03)
+	print(x)
+
+	Ans:52.03
